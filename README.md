@@ -5,7 +5,7 @@ Try to require and if could not return `undefined`.
 ## Install
 
 ```
-npm i tryRequire --save
+npm i tryrequire --save
 ```
 
 ## Options
