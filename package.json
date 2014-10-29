@@ -4,7 +4,7 @@
   "author": "coderaiser <mnemonic.enemy@gmail.com> (https://github.com/coderaiser)",
   "description": "try to require",
   "homepage": "http://cloudcmd.io",
-  "main":  "lib/tryRequire.js",
+  "main": "lib/tryRequire.js",
   "repository": {
     "type": "git",
     "url": "git://github.com/coderaiser/tryRequire.git"
