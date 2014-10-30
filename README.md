@@ -16,7 +16,7 @@ npm i tryrequire --save
 ## How to use?
 
 ```js
-var tryRequire  = require('tryRequire'),
+var tryRequire  = require('tryrequire'),
     config      = tryRequire('./config'), /* quitly try to load config */
     info        = tryRequire('./package', {log: true}), /* if error - log it */
     niki        = tryRequire('nicki', {callback: true});
