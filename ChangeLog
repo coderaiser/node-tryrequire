@@ -1,0 +1,6 @@
+2014.11.5, v1.0.1
+
+feature:
+- (package) util-io v1.6.1
+- (package) tryRequire -> tryrequire
+
