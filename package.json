@@ -12,8 +12,6 @@
   "keywords": [
     "require"
   ],
-  "dependencies": {
-    "util-io": "~1.6.1"
-  },
+  "dependencies": {},
   "license": "MIT"
 }
