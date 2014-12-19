@@ -12,6 +12,8 @@
   "keywords": [
     "require"
   ],
-  "dependencies": {},
+  "dependencies": {
+    "try-catch": "~1.0.0"
+  },
   "license": "MIT"
 }
