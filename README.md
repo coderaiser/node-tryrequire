@@ -16,17 +16,11 @@ npm i tryrequire --save
 ## How to use?
 
 ```js
-var tryRequire  = require('tryrequire'),
-    config      = tryRequire('./config'), /* quitly try to load config */
-    info        = tryRequire('./package', {log: true}), /* if error - log it */
-    niki        = tryRequire('nicki', {callback: true});
-    
-    niki(function(error, data) {
-        /* if could not load niki - in error would be information about it */
-        console.log(error || data);
-    });
+const tryRequire = require('tryrequire');
+const config = tryRequire('./config') || {}; 
 ```
 
 ## License
 
 MIT
+
