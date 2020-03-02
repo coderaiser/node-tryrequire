@@ -1,3 +1,10 @@
+2020.03.02, v3.0.0
+
+feature:
+- (tryrequire) drop support of node < 10
+- (package) try-catch v3.0.0
+
+
 2018.02.09, v2.0.1
 
 feature:
