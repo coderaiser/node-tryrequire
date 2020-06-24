@@ -3,7 +3,7 @@
   "version": "3.0.0",
   "author": "coderaiser <mnemonic.enemy@gmail.com> (https://github.com/coderaiser)",
   "description": "try to require",
-  "main": "lib/tryRequire.js",
+  "main": "lib/tryrequire.js",
   "repository": {
     "type": "git",
     "url": "git://github.com/coderaiser/node-tryrequire.git"
@@ -17,5 +17,25 @@
   "engines": {
     "node": ">=10"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "coveralls": "^3.1.0",
+    "eslint": "^7.3.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-putout": "^4.1.0",
+    "madrun": "^6.0.1",
+    "nyc": "^15.1.0",
+    "putout": "^8.21.0",
+    "supertape": "^2.0.1"
+  },
+  "scripts": {
+    "lint": "madrun lint",
+    "fix:lint": "madrun fix:lint",
+    "report": "madrun report",
+    "coverage": "madrun coverage",
+    "test": "madrun test",
+    "watch:coverage": "madrun watch:coverage",
+    "watch:test": "madrun watch:test",
+    "watcher": "madrun watcher"
+  }
 }
